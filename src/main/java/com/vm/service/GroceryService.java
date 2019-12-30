@@ -9,4 +9,9 @@ public interface GroceryService {
 
 	public List<GroceryItems> getAllGroceryItems();
 
+	public GroceryItems saveOrUpdateGroceryItem(GroceryItems request);
+
+	
+
+
 }
